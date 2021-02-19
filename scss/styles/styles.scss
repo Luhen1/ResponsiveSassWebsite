@@ -1,6 +1,26 @@
+@import 'navbar';
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+//hero section css
+
+.hero {
+    background-color: $light;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 // when you update sass file. go and click on watch sass icon below
 // when you edit this file. automate edits the css file and adds more content on it. 
+// as you edit the file. you should make sure that your sass watch is activated.

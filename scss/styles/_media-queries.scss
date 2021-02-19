@@ -1,0 +1,14 @@
+@mixin tablet {
+    @media screen  and (max-width: 768px){
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen  and (max-width: 280px){
+        @content;
+    }
+}
+
+
+// mixin - tool to make screen as seen on a tablet or other devices
